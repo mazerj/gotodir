@@ -1,0 +1,6 @@
+# source me from bash
+function gotodir () { gotodir.sh "$@" >/tmp/g.$$ && \
+	 	 builtin cd "$(</tmp/g.$$)" && \
+	 	 rm /tmp/g.$$ && echo -n "-->" && pwd ; }
+alias cd=gotodir
+
