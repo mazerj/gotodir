@@ -8,10 +8,7 @@ used with alias below adds a pseudo-search path to cd:
   (https://github.com/junegunn/fzf) to let user pick one to
    cd too.
 
-<script src="https://asciinema.org/a/m88y4PnYSim4tc97gm8ITKZtb.js"
-	id="asciicast-m88y4PnYSim4tc97gm8ITKZtb" async
-	data-autoplay="true">
-</script>
+[![asciicast](https://asciinema.org/a/m88y4PnYSim4tc97gm8ITKZtb.png)](https://asciinema.org/a/m88y4PnYSim4tc97gm8ITKZtb)
 
 To use, install `gotodir.sh` somewhere on your search path and add the
 following to your .bashrc_profile:
